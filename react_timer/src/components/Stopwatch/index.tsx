@@ -9,9 +9,9 @@ export default function Stopwatch() {
             <div className={style.clockWrapper}>
                 <Clock/>
             </div>
-            <Button
-                text='Começar'
-            />
+            <Button 
+                type='submit'
+                text='Começar'/>
         </div>
     )
 }
