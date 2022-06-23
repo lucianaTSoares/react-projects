@@ -1,13 +1,13 @@
-import style from './style.module.scss'
+import style from "./style.module.scss";
 
 export default function Clock() {
-    return (
-        <>
-            <span className={style.clockNumber}>0</span>
-            <span className={style.clockNumber}>0</span>
-            <span className={style.clockDivider}>:</span>
-            <span className={style.clockNumber}>0</span>
-            <span className={style.clockNumber}>0</span>
-        </>
-    )
+  return (
+    <>
+      <span className={style.clockNumber}>0</span>
+      <span className={style.clockNumber}>0</span>
+      <span className={style.clockDivider}>:</span>
+      <span className={style.clockNumber}>0</span>
+      <span className={style.clockNumber}>0</span>
+    </>
+  );
 }
